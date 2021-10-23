@@ -64,23 +64,51 @@ a:hover{
 
 }
 
-#button {
+a.button {
   display: inline-block;
-  background-color: var(--cor-destaque);
-  box-shadow: 5px 5px 0 var(--cor-sombra);
+
   padding: 18px 20px;
   margin-right: 0px;
+
+  background-color: var(--cor-destaque);
+  box-shadow: 5px 5px 0 var(--cor-sombra);
   color: var(--cor01);
+
   font-weight: bolder;
+  
   transition: transform 0.15s linear;
 }
 
-#button:hover {
+a.button:hover {
   transform: scale(1.1);
   border-radius: 0;
 }
 
-#button:hover::before {
+a.button:hover::before {
   content: "";
   background-color: var(--cor-destaque);
 }
+
+.black_box {
+  display: inline-block;
+  background-color: var(--cor01);
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 13px 12px 1px var(--cor-sombra);
+}
+
+
+
+h1 {
+  font-size: 40px;
+  color: var(--cor-destaque);
+  text-shadow: 1px 1px 1px var(--cor01);
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  color: var(--cor03);
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
