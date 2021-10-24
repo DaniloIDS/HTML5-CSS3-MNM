@@ -64,29 +64,4 @@ a:hover{
 
 }
 
-a.button {
-  display: inline-block;
-
-  padding: 18px 20px;
-  margin-right: 0px;
-
-  background-color: var(--cor-destaque);
-  box-shadow: 5px 5px 0 var(--cor-sombra);
-  color: var(--cor01);
-
-  font-weight: bolder;
-  
-  transition: transform 0.15s linear;
-}
-
-a.button:hover {
-  transform: scale(1.1);
-  border-radius: 0;
-}
-
-a.button:hover::before {
-  content: "";
-  background-color: var(--cor-destaque);
-}
-
 
