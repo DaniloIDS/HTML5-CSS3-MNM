@@ -1,34 +1,38 @@
 .action_link {
   display: inline-flex;
   align-items: center;
+  margin-right: 30px;
+
   color: #FFF;
   font-size: 20px;
   font-family: inherit;
   font-weight: 400;
   text-decoration: none;
-  margin-right: 30px;
+
+  transition-duration: 0.6s;
 }
 
 .action_link::before {
-  display: inline-block;
   content: "";
-  background-color: var(--cor-destaque);
+  display: inline-block;
   height: 10px;
   width: 10px;
   align-content: center;
   margin-right: 10px;
 
-
+  background-color: var(--cor-destaque);
 }
 
 .action_link:hover::before {
   content: "";
+
   background-color: var(--cor-sombra);
+
 }
 
 
 .action_link:hover{
-  background-color: var(--cor03);
+  background-color: var(--cor-realce);
   transition-duration: 0.5s; 
   padding: 5px 10px;
   border-radius: 10px;

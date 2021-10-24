@@ -2,23 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root {
-  --cor01: #1D2938;
+  --cor-fundo: #1D2938;
   --cor-sombra: #2A616E;
-  --cor03: #13B37E;
+  --cor-realce: #13B37E;
   --cor-destaque: #07EF5C;
 }
 
 body{
   font-family: "Poppins", sans-serif;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--cor01);
-  border-bottom: 10px solid var(--cor-sombra);
-  padding: 10px 20px;
-  box-sizing: border-box;
 }
 
 img{
