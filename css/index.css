@@ -89,26 +89,4 @@ a.button:hover::before {
   background-color: var(--cor-destaque);
 }
 
-.black_box {
-  display: inline-block;
-  background-color: var(--cor01);
-  padding: 20px;
-  margin: 30px;
-  box-shadow: 13px 12px 1px var(--cor-sombra);
-}
-
-
-
-h1 {
-  font-size: 40px;
-  color: var(--cor-destaque);
-  text-shadow: 1px 1px 1px var(--cor01);
-  font-family: "Poppins", sans-serif;
-}
-
-h2 {
-  color: var(--cor03);
-  font-size: 30px;
-  font-family: "Poppins", sans-serif;
-}
 
