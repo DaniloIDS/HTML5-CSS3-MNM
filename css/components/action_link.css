@@ -1,0 +1,37 @@
+.action_link {
+  display: inline-flex;
+  align-items: center;
+  color: #FFF;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.action_link::before {
+  display: inline-block;
+  content: "";
+  background-color: var(--cor-destaque);
+  height: 10px;
+  width: 10px;
+  align-content: center;
+  margin-right: 10px;
+
+
+}
+
+.action_link:hover::before {
+  content: "";
+  background-color: var(--cor-sombra);
+}
+
+
+.action_link:hover{
+  background-color: var(--cor03);
+  transition-duration: 0.5s; 
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+
+}
