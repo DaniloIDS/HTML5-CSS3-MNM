@@ -6,11 +6,15 @@
   --cor-sombra: #2A616E;
   --cor-realce: #13B37E;
   --cor-destaque: #07EF5C;
+
 }
 
 body{
   font-family: "Poppins", sans-serif;
+  background-color: var(--cor-fundo);
+  height: 100%;
 }
+
 
 
 
