@@ -1,0 +1,23 @@
+.skill-tech {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 28px ;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.skill-tech .icon {
+  margin-right: 25px;
+}
+
+.format_skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.icon.adjust {
+  margin-right: 16px;
+}

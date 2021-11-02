@@ -11,11 +11,13 @@
   <link rel="stylesheet" href="css/components/control_page.css">
   <link rel="stylesheet" href="css/components/header.css">
   <link rel="stylesheet" href="css/components/banner.css">
-  <link rel="stylesheet" href="css/components/title.css">
+  <link rel="stylesheet" href="css/components/main-title.css">
   <link rel="stylesheet" href="css/components/button.css">
   <link rel="stylesheet" href="css/components/action_link.css">
   <link rel="stylesheet" href="css/components/icon_pixelart.css">
-  <link rel="stylesheet" href="css/components/skills_page.css">
+  <link rel="stylesheet" href="css/components/section.css">
+  <link rel="stylesheet" href="css/components/skill-tech.css">
+  <link rel="stylesheet" href="css/components/progress-bar.css">
   
   <title>Portifólio - Danilo IDS</title>
 
@@ -43,7 +45,7 @@
       <div class="banner_content">
 
         <div class="black_box">
-          <h1 class="title">Danilo IDS</h1>
+          <h1 class="main-title">Danilo IDS</h1>
           <h2 class="subtitle">FrontEnd Developer</h2>
         </div>
 
@@ -55,18 +57,43 @@
       </div>
 
     </section>
-    <section class="skills_page">
-      <h1 class="title">Skills</h1>
+    <section class="section">
+
+      <h1 class="main-title -second">Skills</h1>
 
       <div class="container_skills">
-        <ul>
-          <li>Excel Avançado</li>
-          <li>VBA</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JS</li>
-        </ul>
-      </div>
+        
+        <article class="skill-tech">
+          <img src="assets/img/ico_html5.png" alt="logo do HTML5 em pixelart" class="icon">
+
+          <div class="format_skill">
+            <h3 class="title -second">HTML5</h3>
+            <progress class="progress-bar" max="100" value="70">70%</progress>
+          </div>
+        
+        </article>
+        
+
+        <article class="skill-tech">
+
+          <img src="assets/img/ico_css3.png" alt="ícone do CSS3" class="icon">
+
+          <div class="format_skill">
+            <h3>CSS3</h2>
+            <progress class="progress-bar" max="100" value="70">70%</progress>
+          </div> 
+        
+        </article>
+
+        <article class="skill-tech">
+
+        <img src="assets/img/ico_js.png" alt="ícone do Javascript" class="icon adjust">
+          
+        <div>
+          <h3>Javascript</h3>
+          <progress class="progress-bar" max="100" value="70">70%</progress>
+        </div>
+     
     </section>
   </main>
 
