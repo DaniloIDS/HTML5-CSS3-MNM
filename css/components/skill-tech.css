@@ -1,5 +1,6 @@
 .skill-tech {
   display: flex;
+  align-items: center;
   font-family: "Poppins", sans-serif;
   color: white;
   font-size: 28px ;
@@ -20,4 +21,22 @@
 
 .icon.adjust {
   margin-right: 16px;
+}
+
+.desc_skill {
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: justify;
+  line-height: 1.5;
+  display: inline-block;
+  max-width: 600px;
+  padding-left: 20px;
+}
+
+.container_skills{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
