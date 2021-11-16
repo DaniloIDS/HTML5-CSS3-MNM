@@ -1,0 +1,23 @@
+.project {
+  display: flex;
+  height: 254px;
+  width: 245px;
+  background-color: var(--cor-fundo); 
+  box-shadow: 8px 8px 1px var(--cor-destaque);
+  margin-right: 20px; 
+  margin-top: 40px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.project-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-project {
+  color: #FFF;
+  font-family: "Fira Code";
+  font-weight: normal;
+}
