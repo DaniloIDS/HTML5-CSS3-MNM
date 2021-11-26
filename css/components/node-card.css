@@ -1,0 +1,10 @@
+.node-card {
+
+}
+
+.node-card .title {
+  font-size: 25px;
+  font-weight: 400;
+  color: #FFF;
+  font-family: "Press Start 2P", sans-serif;
+}
