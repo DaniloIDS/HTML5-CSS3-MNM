@@ -55,5 +55,5 @@ transform: translateY(-50%);
   display: flex;
   justify-content: space-between;
   transform: translateX(1px);
-  transition: transform 100ms ease-in-out;
+  transition: transform 0.7s ease-in-out;
 }
