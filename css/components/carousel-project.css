@@ -3,18 +3,19 @@
  display: flex;
  justify-content: space-between;
  margin-top: 40px;
-padding-right: 85px;
-padding-left: 85px;
+padding-right: 90px;
+padding-left: 90px;
+box-sizing: border-box;
 }
 
 .carousel-project::after {
   content: "";
   display: block;
   position: absolute;
-  left: 40px;
+  left: 90px;
   top: 28px;
   height: 10px;
-  width: calc(100% - 80px);
+  width: calc(100% - 180px);
   background-color: #000;
 }
 
@@ -26,7 +27,8 @@ padding-left: 85px;
   border: 5px dashed #000;
   left: 0;
   top: 28px;
-  width: 99%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .carousel-project .button-arrow {
@@ -42,4 +44,15 @@ transform: translateY(-50%);
 
 .carousel-project .button-arrow.-right {
   right: 15px;
+}
+
+.wrapper-items {
+  width: 100%;
+  overflow: hidden;
+}
+
+.elements {
+  display: flex;
+  justify-content: space-between;
+  transform: translateX(1px);
 }

@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin-left: 10px;
+
   
 }
 
@@ -29,8 +29,15 @@
 
 .node-card .logo {
   display: flex;
-  height: 200px;
+  height: 190px;
+  width: 190px;
   border: 5px solid black;
-  background-color: red;
 }
+
+.img-project {
+  width: 180px;
+  height: 180px;
+}
+
+
 
