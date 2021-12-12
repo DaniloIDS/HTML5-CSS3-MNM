@@ -4,3 +4,7 @@
  background-color: var(--cor-realce);
  border-bottom: 10px solid var(--cor-sombra);
 }
+
+.section.-bgvariant {
+  background-color: var(--cor-fundo);
+}
