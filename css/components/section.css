@@ -7,4 +7,5 @@
 
 .section.-bgvariant {
   background-color: var(--cor-fundo);
+  border-bottom: none;
 }
