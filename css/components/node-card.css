@@ -1,11 +1,15 @@
-
 .node-card {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   position: relative;
+}
 
-  
+.node-card .logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .node-card::before{
@@ -32,6 +36,7 @@
   height: 190px;
   width: 190px;
   border: 5px solid black;
+  background-color: var(--cor-fundo);
 }
 
 .img-project {
