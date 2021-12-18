@@ -24,5 +24,5 @@
   color: var(--cor-fundo);
   font-weight: bolder;
   border: 2px solid var(--cor-sombra);
-  
+  cursor: pointer;
 }
