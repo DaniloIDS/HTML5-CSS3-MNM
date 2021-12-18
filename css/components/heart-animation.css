@@ -1,0 +1,53 @@
+/*Heart animation by Vitor Prado*/
+
+.heart-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart {
+  margin-top: 100px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: var(--cor-destaque);
+  transform: rotate(-45deg);
+  animation: heart 5s infinite;
+}
+
+@keyframes heart {
+    0%   {transform: rotate(-45deg) scale(1);}
+    50%  {
+           transform: rotate(-45deg) scale(1.5);
+           background-color: var(--cor-destaque);
+         }
+    100%  {transform: rotate(-45deg) scale(1);}
+}
+
+@keyframes heart-color {
+   50%  {background-color: var(--cor-destaque);}
+}
+
+.heart:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  left: 50%;
+  position: absolute;
+  animation: heart-color 5s infinite;
+  background-color: var(--cor-destaque);
+}
+
+.heart:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  bottom: 50%;
+  position: absolute;
+  animation: heart-color 5s infinite;
+  background-color: var(--cor-destaque);
+}

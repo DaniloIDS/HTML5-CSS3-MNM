@@ -9,3 +9,10 @@
   background-color: var(--cor-fundo);
   border-bottom: none;
 }
+
+.section.-bgvariant.full {
+  height: 70vh;
+}
+.section.variant {
+  background-color: var(--cor-fundo);
+}
