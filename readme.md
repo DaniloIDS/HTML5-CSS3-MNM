@@ -1,5 +1,5 @@
 <h1>Projeto - Portifólio</h1>
-<h2>Inspirado no modelo do <a href="https://www.firedlabs.com">Marco Bruno Dev</a> - Curso HTML e CSS Feliz</h2>
+<h2>Inspirado no modelo do <a href="https://www.firedlabs.com">Marco Bruno Dev</a> - Curso HTML e CSS</h2>
 
 > Status: Finalizado
 
